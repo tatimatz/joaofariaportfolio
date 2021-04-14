@@ -5,6 +5,8 @@ import {Project1, Project2} from './pages/Projects';
 import Contact from './pages/Contact';
 
 const App = () => {
+
+  
   return (
 <Switch>
   <Route exact path='/' component={Home} />

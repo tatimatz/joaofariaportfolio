@@ -11,8 +11,8 @@ const Home = () => {
       <SocialNetwork />
         <div className="home-main">
           <div className="main-content">
-            <h1>FS AGENCY</h1>
-            <h2>simply</h2>
+            <h1>JOÃO FARIA</h1>
+            <h2>artiste brésilien</h2>
           </div>
         </div>
         <ButtonsBottom right={"/project1"} />

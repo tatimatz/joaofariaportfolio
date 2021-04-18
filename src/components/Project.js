@@ -12,8 +12,8 @@ const Project = (props) => {
       <div className="project-content">
         <h1>{project.title}</h1>
         <p>{project.date}</p>
-        <ul className="languages">
-          {project.languages.map((item) => {
+        <ul className="techniques">
+          {project.techniques.map((item) => {
             return <li key={item}>{item}</li>;
           })}
         </ul>
@@ -21,8 +21,7 @@ const Project = (props) => {
       <div className="img-content">
         <div className="img-container hover">
           <span>
-          <h3>{project.title}</h3>
-          <p>{project.infos}</p>
+          <p style={{'font-size':'1rem'}}>{project.infos}</p>
           </span>
           <img src={project.img} alt={project.title} />
         </div>
@@ -33,7 +32,7 @@ const Project = (props) => {
             rel="noopener noreferrer"
             className="hover"
           >
-              <span className="button">voir le site</span>
+              <span className="button">voir la galerie</span>
           </a>
         </div>
       </div>

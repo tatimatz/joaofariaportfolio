@@ -21,7 +21,7 @@ const SocialNetwork = () => {
     <div className="social-network">
       <ul className="content">
         <a
-          href="https://www.facebook.com"
+          href="https://www.facebook.com/joao.faria.547"
           target="_blank"
           rel="noopener noreferrer"
           className="hover"
@@ -32,7 +32,7 @@ const SocialNetwork = () => {
           </li>
         </a>
         <a
-          href="https://www.instagram.com"
+          href="https://www.instagram.com/joaofariaarte/?igshid=17w7yrwwztsan"
           target="_blank"
           rel="noopener noreferrer"
           className="hover"

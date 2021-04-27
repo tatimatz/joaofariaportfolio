@@ -27,7 +27,7 @@ const Bio = () => {
                 obras são assim, o retrato do sincero.
               </p>
             </span>
-            <img src={Profile} alt={"João Faria"} />
+            <img src={Profile} alt={"João Faria"} className="bio-img" />
           </div>
         </div>
       

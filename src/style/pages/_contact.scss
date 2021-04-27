@@ -46,7 +46,7 @@
     right: 0;
     display: grid;
     grid-template-rows: repeat(4, 23%) 12%;
-    height: 70%;
+    height: 50%;
     width: 30%;
     max-width: 500px;
 
@@ -92,40 +92,19 @@
         font-size: 1.5rem;
       }
     }
-    .email,
-    .phone {
-      @media screen and (max-height: 640px){
-        display: none;
-      }
-    }
-    .email .content p,
-    .phone .content p {
+ .content p {
       transition: 0.25s;
 
       &:hover {
         transform: translateX(5px);
       }
     }
-    
-    .address {
-      position: relative;
 
-      @media screen and (max-width: 540px){
-       display: none;
-      }
       .content {
         position: absolute;
         right: 10px;
       }
     }
-    .phone {
-      position: relative;
-
-      @media screen and (max-width: 540px){
-        text-align: center;
-        font-size: .8rem;
-        grid-area: b;
-      }
 
       .content {
         position: absolute;
@@ -140,13 +119,7 @@
         }
       }
     }
-    .email {
-      @media screen and (max-width: 540px){
-        grid-area: c;
-        font-size: .8rem;
-        text-align: center;
-      }
-    }
+  
     .social-network {
       position: relative;
       width: 80%;
@@ -175,9 +148,7 @@
         margin-right: 1rem;
         grid-area: f;
       }
-      p {
+      #name-credits {
         font-size: 0.9rem;
       }
     }
-  }
-}

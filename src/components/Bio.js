@@ -1,5 +1,5 @@
 import React from "react";
-import Profile from "../assets/profile.jpeg";
+import Profile from "../assets/img/profile.jpeg";
 import { CopyToClipboard } from "react-copy-to-clipboard";
 import SocialNetwork from "../components/SocialNetwork";
 

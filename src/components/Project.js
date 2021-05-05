@@ -27,7 +27,7 @@ const Project = (props) => {
         </div>
         <div className="button-container">
           <a
-            href={project.link}
+            href="/galerie1"
             target="_blank"
             rel="noopener noreferrer"
             className="hover"

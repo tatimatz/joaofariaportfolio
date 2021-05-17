@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import FbImageGrid from 'react-facebook-photo-grid';
-import { GaleriesData } from '../data/galeriesData.js'
+import { GaleriesData } from '../data/galeriesData.js';
 
 const Galerie = (props) => {
 

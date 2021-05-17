@@ -15,7 +15,7 @@ export const Galerie1 = () => {
 
 
 
-{/*export const Galerie2 = () => {
+export const Galerie2 = () => {
   return (
     <div>
       <div className="galerie">
@@ -23,7 +23,6 @@ export const Galerie1 = () => {
       </div>
     </div>
   )
-}*/}
-
+}
 
 

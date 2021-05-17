@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { projectsData } from "../data/projectsData";
+import { projectsData } from "../data/projectsData.js";
 
 const Project = (props) => {
   const [currentProject] = useState(projectsData);

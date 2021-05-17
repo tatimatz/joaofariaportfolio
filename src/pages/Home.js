@@ -2,7 +2,7 @@ import React from "react";
 import ButtonsBottom from "../components/ButtonsBottom";
 import Navigation from "../components/Navigation";
 import SocialNetwork from "../components/SocialNetwork";
-import Mainphoto from "../assets/fonts/mainphoto.jpg";
+import Mainphoto from "../assets/img/mainphoto.jpg";
 
 const Home = () => {
   return (

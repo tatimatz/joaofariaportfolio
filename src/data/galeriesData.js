@@ -6,7 +6,6 @@ export const GaleriesData = [
       "../assets/img/galeries/aformaimediata/aformaimediata2.jpg",
       "../assets/img/galeries/aformaimediata/aformaimediata3.jpg",
       "../assets/img/galeries/aformaimediata/aformaimediata4.jpg",
-      "../assets/img/galeries/aformaimediata/aformaimediata4.jpg",
       "../assets/img/galeries/aformaimediata/aformaimediata5.jpg",
       "../assets/img/galeries/aformaimediata/aformaimediata6.jpg",
       "../assets/img/galeries/aformaimediata/aformaimediata7.jpg",

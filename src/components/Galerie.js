@@ -1,16 +1,22 @@
 import React, { useState } from 'react';
-import FbImageGrid from 'react-facebook-photo-grid';
-import { GaleriesData } from '../data/galeriesData.js';
+import { projectsData } from "../data/projectsData.js";
 
 const Galerie = (props) => {
 
-    const [currentGalerie] = useState(GaleriesData);
-    const galerie = currentGalerie[props.galerieNumber].tableaux;
+const [currentProject] = useState(projectsData);
+  const project = currentProject[props.projectNumber];
+
+  console.log(currentProject);
 
 
     return (
-        <div>
-        <FbImageGrid images={galerie} maxWidth={800}  />
+        <div className="gallery">
+            <div className="gallery-item" >
+            {project.galerie.map((item) => {
+            return <img className="frame" src={item} alt="blabla" key={item.id} />;
+          })}
+                
+            </div>
         </div>
     )
 }

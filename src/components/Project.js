@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { projectsData } from "../data/projectsData.js";
+import ButtonsGalerie from '../components/ButtonsGalerie';
 
 const Project = (props) => {
   const [currentProject] = useState(projectsData);
@@ -18,6 +19,7 @@ const Project = (props) => {
           })}
         </ul>
       </div>
+
       <div className="img-content">
         <div className="img-container hover">
           <span>
@@ -25,16 +27,7 @@ const Project = (props) => {
           </span>
           <img src={project.img} alt={project.title} />
         </div>
-        <div className="button-container">
-          <a
-            href="/galerie1"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover"
-          >
-              <span className="button">voir la galerie</span>
-          </a>
-        </div>
+        < ButtonsGalerie />
       </div>
     </div>
   );

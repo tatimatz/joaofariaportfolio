@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { projectsData } from "../data/projectsData.js";
-import ButtonsGalerie from '../components/ButtonsGalerie';
+
 
 const Project = (props) => {
   const [currentProject] = useState(projectsData);
@@ -27,7 +27,16 @@ const Project = (props) => {
           </span>
           <img src={project.img} alt={project.title} />
         </div>
-        < ButtonsGalerie />
+        <div className="button-container">
+        <a
+          href={project.path}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover"
+        >
+            <span className="button">voir la galerie</span>
+        </a>
+      </div>
       </div>
     </div>
   );

@@ -9,8 +9,9 @@ export const Project1 = () => {
       <div className="project">
         <Navigation />
         <Project projectNumber={0} />
-        <ButtonsBottom left={"/"} right={"/project2"} />
       </div>
+        <ButtonsBottom left={"/"} right={"/project2"} />
+
     </main>
   );
 };

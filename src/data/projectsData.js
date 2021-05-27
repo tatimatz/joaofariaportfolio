@@ -5,6 +5,7 @@ export const projectsData = [
     title: "espiritoarte",
     date: "Janvier 2020",
     techniques: ["acrilique", "papier"],
+    path: "/galerie1",
     galerie: [
       "../assets/img/galeries/espiritoarte/espiritoarte1.jpg",
       "../assets/img/galeries/espiritoarte/espiritoarte2.jpg",
@@ -27,6 +28,7 @@ export const projectsData = [
     title: "a forma imediata do espírito",
     date: "Mars 2020",
     techniques: ["acrilique", "papier"],
+    path: "/galerie2",
     galerie: [
       "../assets/img/galeries/aformaimediata/aformaimediata1.jpg",
       "../assets/img/galeries/aformaimediata/aformaimediata2.jpg",

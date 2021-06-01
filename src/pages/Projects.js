@@ -1,6 +1,5 @@
 import React from "react";
 import Navigation from "../components/Navigation";
-import ButtonsBottom from "../components/ButtonsBottom";
 import Project from "../components/Project";
 
 export const Project1 = () => {
@@ -10,7 +9,6 @@ export const Project1 = () => {
         <Navigation />
         <Project projectNumber={0} />
       </div>
-        <ButtonsBottom left={"/"} right={"/project2"} />
 
     </main>
   );
@@ -22,7 +20,6 @@ export const Project2 = () => {
       <div className="project">
         <Navigation />
         <Project projectNumber={1} />
-        <ButtonsBottom left={"/project1"} right={"/contact"} />
       </div>
     </main>
   );

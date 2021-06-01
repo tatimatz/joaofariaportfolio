@@ -50,13 +50,14 @@
     padding-left: 1rem;
     width: auto;
     height: 95%;
- 
+    overflow: hidden;
 
     .main-content {
       user-select: none;
 
       h1 {
-        font-size: 3.7rem;
+        font-size: 6rem !important;
+        height: 80px;
         position: relative;
         font-family: $font-2;
         color: $black;
@@ -96,11 +97,11 @@
         }
       }
       h2 {
-        font-size: 4.2rem;
-        font-weight: 100;
+        font-size: 4rem !important;
+        font-weight: 10 !important;
 
         @media screen and (max-width: 650px){
-          font-size: 2rem;
+          font-size: 1rem;
         }
         @media screen and (min-width: 1200px){
           font-size: 5rem;
